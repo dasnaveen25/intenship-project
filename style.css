@@ -68,24 +68,7 @@ body {
     background-color: #ddd;
   }
 
-  @media (min-width: 768px) { 
-    .navbar {
-      padding: 15px 20px;
-    }
-    .menu {
-      gap: 30px;
-    }
-    .actions {
-      gap: 30px;
-    }
-  }
   
-  /* Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) { 
-    .navbar {
-      padding: 20px 30px;
-    }
-  }
 
 /* hero section */
 
@@ -621,17 +604,17 @@ footer h4{
   }
 }
 
-/* For tablets and larger devices */
+
 @media only screen and (min-width: 768px) {
-  /* Add your styles for tablets here */
+
 }
 
-/* For laptops and desktops */
+
 @media only screen and (min-width: 992px) {
-  /* Add your styles for laptops and desktops here */
+ 
 }
 
-/* For large desktops and TVs */
+
 @media only screen and (min-width: 1200px) {
-  /* Add your styles for large desktops and TVs here */
+ 
 }
