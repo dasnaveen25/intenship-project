@@ -1,0 +1,637 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+
+
+  /* nave section */
+  
+  header {
+    background-color: #f9e9e9;
+    color: #000000;
+    padding: 10px;
+
+   
+    margin: 0 150px ;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 100px; 
+    height: auto;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin: 0;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 20px;
+  }
+
+  #login{
+    background-color: white;
+    font-size: 15px;
+ font-weight: bold;
+  }
+  
+  .actions button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #5870d4e4;
+    border-radius: 10px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .actions button:hover {
+    background-color: #ddd;
+  }
+
+  @media (min-width: 768px) { 
+    .navbar {
+      padding: 15px 20px;
+    }
+    .menu {
+      gap: 30px;
+    }
+    .actions {
+      gap: 30px;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .navbar {
+      padding: 20px 30px;
+    }
+  }
+
+/* hero section */
+
+
+.hero{
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+   justify-content: center;
+  
+    display: flex;
+}
+
+.right-h{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+ /* border: 2px solid red; */
+    height: 500px;
+    margin: 0 250px;
+}
+
+.right-h .two{
+    font-size: 12px;
+    color: gray;
+}
+
+.email{
+
+}
+.email input{
+width: 25%;
+height: 30px;
+
+}
+
+.Forever{
+    color: rgb(37, 78, 180);
+    display: flex;
+
+}
+
+.email-btn{
+    margin-top: 10px;
+    width: 40%;
+    height: 30px;
+    display: flex;
+    gap: 5px;
+    text-align: center;
+    justify-content: baseline;
+}
+
+.email-btn .btn2{
+    width: 45rem;
+    height: 35px;
+    background-color: #f46200;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    
+} 
+
+.email-btn .btn3{
+    width: 30rem;
+    height: 35px;
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+}
+
+.icon-img{
+    margin-top: 40px;
+gap: 20px;
+  
+    
+}
+
+.icon-img{
+   width: 400px;
+   height: 20px;
+   size: 20px;
+   justify-content: space-between;
+ 
+}
+
+.left{
+  position: relative;
+    /* margin-right: 200px; */
+    margin-left: -600px;
+
+}
+.girls-img{
+  position: absolute;
+  left: 5px;
+  top: 40px;
+  width: 200px;
+  height: 180px;
+
+}
+
+.left img{
+    width: 60%;
+    margin-top: 40px;
+}
+
+.herofooter{
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    margin-top: 70px;
+}
+
+.herofooter span{
+    font-weight: bold;
+    gap: 2px;
+}
+.herofooter p{
+    font-size: 13px;
+}
+
+/* ============= */
+.left-section{
+    margin-left: 140px;
+}
+.right-section{
+    margin-right: 140px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container{
+    width: 100%;
+    display: flex;
+  height: 500px;
+    justify-content: space-around;
+}
+
+.right-section ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-weight: bold;
+    font-size: small;
+  
+   
+
+}
+.btnfooter .getbtn{
+    width: 10rem;
+    height: 35px;
+    background-color: #18b9fe;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    border: none;
+}
+.btnfooter .morebtn{
+    width: 10rem;
+    height: 35px;
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+    border: none;
+}
+
+
+.left-sectio {
+  position: relative;
+}
+
+.left-sectio img {
+  position: absolute;
+}
+
+.left-sectio img:first-child {
+  top: 0;
+  left: 0;
+}
+
+.left-sectio img:last-child {
+  top: 40px;
+  left: 400px;
+}
+
+/* +======+*/
+
+.left-section-2{
+  margin-left: 140px;
+}
+.right-section-2{
+  margin-right: -623px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+ 
+}
+
+
+.containe-2{
+  width: 100%;
+  display: flex;
+  height: 550px;
+
+  justify-content: space-around;
+}
+
+.right-section-2 ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  font-weight: bold;
+  font-size: small;
+
+ 
+
+}
+.btnfooter-2 .getbtn{
+  width: 10rem;
+  height: 35px;
+  background-color: #e7437a;
+  color: white;
+  font-size: small;
+  font-weight: bold;
+  border: none;
+}
+.btnfooter-2 .morebtn{
+  width: 10rem;
+  height: 35px;
+  background-color: #fff;
+  border: none;
+  font-weight: bold;
+  border: none;
+}
+
+
+
+.left-sectio-2 {
+  position: relative;
+  /* height: 100%; */
+
+
+}
+
+.bg-2{
+  position: absolute;
+  width: 20%;
+  left: 440px;
+}
+
+.bg-3{
+  width: 20%;
+  position: absolute;
+  left: 440px;
+  top: 30%;
+}
+
+.bg-4{
+  width: 20%;
+  position: absolute;
+  left: 440px;
+  top: 60%;
+}
+
+
+/* grow-section */
+
+.growth{
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.grownav ul {
+
+  margin-top: 40px;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 100px;
+  font-weight: bold;
+  font-size: 15px;
+  
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.grownav ul li{
+  height: 30px;
+padding: 10px;
+
+}
+
+.growhacker{
+
+  width: 100%;
+  display: flex;
+  height: 420px;
+  background-color: #cbe0ff6b;
+  margin: 0 0px 0 0px;
+
+}
+.mainhack{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+text-align: left;
+align-items: center;
+ margin-left: 300px;
+}
+.growtop h4{
+  color: gray;
+}
+
+.hackmid h5{
+  margin-right: 210px;
+  font-weight: bold;
+  font-size: small;
+}
+
+.hackbtn button{
+  margin-right: 240px;
+  height: 60%;
+  background-color: #5c6ac4;
+  border: none;
+  width: 150px;
+  border-radius: 10px;
+}
+
+
+.hackbtn p{
+  color: gray;
+  font-size: 11px;
+}
+ .hack{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.hackimg{
+  margin-right: 14%;
+  position: relative;
+}
+
+.hackempty{
+  width: 15%;
+  height: 13%;
+  background-color: #ffffff;
+ border-radius: 20px;
+  position: absolute;
+  right: 29%;
+padding: 10px;
+}
+
+
+/* card section */
+
+
+.Service {
+
+  padding: 20px;
+  text-align: center;
+}
+
+
+h1 {
+  color: #333;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+
+  display: flex;
+justify-content: space-around;
+padding: 0 329px;
+margin: 30px;
+
+
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: calc(33.33% - 20px);
+  background-color: #fff;
+  padding: 40px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+ 
+  
+}
+.card p{
+  font-size: 13px;
+}
+
+
+
+h2 {
+  color: #333
+}
+
+.cardlogo{
+margin-left: 50px;
+}
+
+
+/*  foooter-section*/
+
+
+
+
+footer{
+  border: 2px solid red;
+  background-color: #0b0e1d;
+  color: #fff;
+width: 100%;
+
+}
+
+footer h4{
+  color: #5c6ac4;
+
+}
+.mainfooter{
+
+  margin-left: 23%;
+}
+
+
+.footerlogo{
+  display: flex;
+  justify-content: space-around;
+}
+
+.flogo{
+  color: #fff;
+  background-color: #e7f1f5;
+}
+
+
+/* media queary */
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  header {
+    margin: 0 20px;
+  }
+
+  .right-h, .left {
+    margin: 0;
+  }
+
+  .email input {
+    width: 100%;
+  }
+
+  .icon-img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .girls-img {
+    width: 100px;
+    height: auto;
+    top: 20px;
+  }
+
+  .herofooter {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .left-section, .right-section {
+    margin: 0;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right-section ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btnfooter {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btnfooter button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .left-sectio img:last-child {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .left-sectio-2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .hackempty {
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .mainfooter {
+    margin-left: 0;
+  }
+}
+
+/* For tablets and larger devices */
+@media only screen and (min-width: 768px) {
+  /* Add your styles for tablets here */
+}
+
+/* For laptops and desktops */
+@media only screen and (min-width: 992px) {
+  /* Add your styles for laptops and desktops here */
+}
+
+/* For large desktops and TVs */
+@media only screen and (min-width: 1200px) {
+  /* Add your styles for large desktops and TVs here */
+}
